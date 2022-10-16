@@ -1,0 +1,141 @@
+<!-- Taylor Anderson
+Homework 04 Submission -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="./docs/css/style.css"/> 
+    <title>Web API's Code Quiz</title>
+  </head>
+  <body>
+      <header>
+          <ul>
+              <li id = "highScore">View High Scores</li>
+              <li id = "timer-count">50</li>
+              <li id = "time">Time: </li>
+          </ul>
+      </header>
+      <section>
+        <section id = card>
+          <h1>Coding Quiz Challenge:</h1>
+          <p>To play, answer the following multiple choice questions within the time limit. Answer wrong and lose 10 seconds.</p>
+            <div>
+              <button id ="start-button">Start Game</button>
+            </div>
+        </section>
+        <section id ="answer00" class ="hidden">
+          <ul>
+            <li>
+              <button class ="incorrectBtn"> Javascript</button></br>
+              <button class ="correctBtn">Script</button></br>
+              <button class ="incorrectBtn">Scripting</button></br>
+              <button class ="incorrectBtn">js</button>
+            </li>
+          </ul>
+          </section>
+          <section id ="answer01" class ="hidden">
+            <ul>
+              <li>
+                <button class ="correctBtn">False</button></br>
+                <button class ="incorrectBtn">True</button></br>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer02" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">msg("Hello World")</button></br>
+                <button class ="correctBtn">alert("Hello World")</button></br>
+                <button class ="incorrectBtn">msgBox("Hello World")</button></br>
+                <button class ="incorrectBtn">alertBox("Hello World")</button>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer03" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">function = myFunction()</button></br>
+                <button class = "correctBtn">function myFunction()</button></br>
+                <button class ="incorrectBtn">function:myFunction()</button></br>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer04" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">call myFunction()</button></br>
+                <button class ="incorrectBtn">call function myFunction()</button></br>
+                <button class = "correctBtn">myFunction()</button></br>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer05" class ="hidden">
+            <ul>
+              <li>
+                <button class = "correctBtn">if (i===5)</button></br>
+                <button class ="incorrectBtn">if i ===t then</button></br>
+                <button class ="incorrectBtn">if i = 5 then</button></br>
+                <button class ="incorrectBtn">if i = t</button>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer06" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">while i = 1 to 1-</button></br>
+                <button class = "correctBtn"> while (i < 10)</button></br>
+                <button class ="incorrectBtn">while (i <10= 10; i++) </button></br>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer07" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">for i = 1 to 5</button></br>
+                <button class ="correctBtn">for (i = 0; i <=5; i++)</button></br>
+                <button class ="incorrectBtn">for(i <=5; i++)</button></br>
+                <button class ="incorrectBtn">for(i = 0;i <=5)</button>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer08" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">True</button></br>
+                <button class = "correctBtn">False</button></br>
+              </li>
+            </ul>
+          </section>
+          <section id ="answer09" class ="hidden">
+            <ul>
+              <li>
+                <button class ="incorrectBtn">variable carName;</button></br>
+                <button class ="correctBtn">var carName;</button></br>
+                <button class ="incorrectBtn">v carNAme;</button></br>
+              </li>
+            </ul>
+          </section>
+          <section id = "leaderboard" class="hidden">
+              <form>
+                <ul>
+                  <li>
+                    <label for="initials">Initials:</label>
+                    <textarea id="initialsText" name="initials"></textarea>
+                  </li>
+                </ul>
+                <button id="submit">Submit</button>
+              </form> 
+              <button class="playAgain">Play Again?</button>
+              <button id="highScores">High Scores</button>
+          </section>
+          <section id ="highScoresPage" class ="hidden">
+          </section>
+      </section>
+      <h3 id ="scores"></h3>
+  <script src="./docs/jss/script.js"></script>
+  </body>
+</html>
